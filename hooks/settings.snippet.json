@@ -1,0 +1,26 @@
+{
+  "//": "把下面 hooks 字段合并进 ~/.claude/settings.json（Claude Code 用户级配置）。Windows 下命令用正斜杠即可。",
+  "hooks": {
+    "SessionStart": [
+      { "hooks": [{ "type": "command", "command": "python D:/vibe_pet/host/hook_event.py" }] }
+    ],
+    "UserPromptSubmit": [
+      { "hooks": [{ "type": "command", "command": "python D:/vibe_pet/host/hook_event.py" }] }
+    ],
+    "PreToolUse": [
+      { "hooks": [{ "type": "command", "command": "python D:/vibe_pet/host/hook_event.py" }] }
+    ],
+    "PostToolUse": [
+      { "hooks": [{ "type": "command", "command": "python D:/vibe_pet/host/hook_event.py" }] }
+    ],
+    "Notification": [
+      { "hooks": [{ "type": "command", "command": "python D:/vibe_pet/host/hook_event.py" }] }
+    ],
+    "Stop": [
+      { "hooks": [{ "type": "command", "command": "python D:/vibe_pet/host/hook_event.py" }] }
+    ],
+    "SessionEnd": [
+      { "hooks": [{ "type": "command", "command": "python D:/vibe_pet/host/hook_event.py" }] }
+    ]
+  }
+}

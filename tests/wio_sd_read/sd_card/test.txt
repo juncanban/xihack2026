@@ -1,0 +1,3 @@
+Hello, Wio Terminal!
+SD card read test.
+0123456789 ABCDEFGHIJKLMNOPQRSTUVWXYZ

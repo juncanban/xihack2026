@@ -1,0 +1,27 @@
+# 构建产物与依赖
+.pio/
+*.exe
+*.o
+
+# 历史备份 / 发布镜像 / 只读参考仓库(reference/* 各自是独立 git 仓库)
+backups/
+.gitee-publish/
+reference/
+
+# 测试与生成的临时产物
+__pycache__/
+artifacts/
+output/
+tmp/
+result.html
+TEST_REPORT_*.html
+TEST_REPORT_*.pdf
+
+# 大体积视频素材(压缩版 assets/intro.mp4 入库)
+产品介绍.mp4
+assets/pass*.log
+ffmpeg2pass-*
+
+# 系统
+Thumbs.db
+.DS_Store
